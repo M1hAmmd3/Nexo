@@ -1,0 +1,20 @@
+app:
+  formal_name: HeFed Mobile
+  bundle: com.yourname.hefed
+  version: "1.0.0"
+  description: "Video downloader app"
+  author: "Your Name"
+  source: src
+  requirements:
+    - kivy==2.3.1
+    - kivymd==1.1.1
+    - yt-dlp==2025.9.5
+    - arabic-reshaper==3.0.0
+    - python-bidi==0.6.6
+    - plyer==2.1.0
+    - Pillow==11.3.0
+  android:
+    permissions:
+      - INTERNET
+      - WRITE_EXTERNAL_STORAGE
+      - READ_EXTERNAL_STORAGE
